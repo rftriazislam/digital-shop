@@ -1,0 +1,308 @@
+//frontend
+@extends('frontend.home.master')
+@section('maincontent')
+
+
+@endsection
+
+
+
+//admin
+@extends('admin.dashboard')
+@section('maincontent')
+
+
+@endsection
+
+//customer
+
+@extends('customer.dashboard')
+@section('maincontent')
+
+
+@endsection
+
+social_media 
+make_payment
+influence_marketing
+gift_card
+subscription
+digital_wallet
+advertisement_account
+social_media_promotion
+top_up_apps
+games_zone
+
+
+
+
+
+
+  "Barisal":   ["Barguna",  "Barisal",        "Bhola",    "Jhalokati",  "Patuakhali", "Pirojpur"],
+  "Chittagong":["Bandarban","Brahmanbaria",   "Chandpur", "Chittagong", "Comilla",    "Cox's Bazar","Feni",     "Khagrachhari","Lakshmipur", "Noakhali", "Rangamati"],
+  "Dhaka":     ["Dhaka",    "Faridpur",       "Gazipur",  "Gopalganj",  "Kishoreganj","Madaripur",  "Manikganj","Munshiganj",  "Narayanganj","Narsingdi","Rajbari","Shariatpur","Tangail"],
+  "Khulna":    ["Bagerhat", "Chuadanga",      "Jessore",  "Jhenaidah",  "Khulna",     "Kushtia",    "Magura",   "Meherpur",    "Narail",     "Satkhira"],
+  "Mymensingh":["Jamalpur", "Mymensingh",     "Netrakona","Sherpur"],
+  "Rajshahi"  :["Bogra",    "Chapainawabganj","Joypurhat","Naogaon",    "Natore",     "Pabna",      "Rajshahi", "Sirajganj"],
+  "Rangpur"   :["Dinajpur", "Gaibandha",      "Kurigram", "Lalmonirhat","Nilphamari", "Panchagarh", "Rangpur",  "Thakurgaon"],
+  "Sylhet"    :["Habiganj", "Moulvibazar",    "Sunamganj","Sylhet"]
+
+Barguna 
+
+                    { "state_name": "Bagerhat" },
+                    { "state_name": "Bandarban" },
+                    { "state_name": "Barguna" },
+                    { "state_name": "Barisal" },
+                    { "state_name": "Bhola" },
+                    { "state_name": "Bogra" },
+                    { "state_name": "Brahmanbaria" },
+                    { "state_name": "Chandpur" }, 
+                    { "state_name": "Chittagong" },
+                    { "state_name": "Chuadanga" }, 
+                    { "state_name": "Dhaka" },
+                    { "state_name": "Dinajpur" },
+                    { "state_name": "Faridpur" },
+                    { "state_name": "Feni" },
+                    { "state_name": "Gaibandha" },
+                    { "state_name": "Gazipur" },
+                    { "state_name": "Gopalganj" },
+                    { "state_name": "Habiganj" },
+                    { "state_name": "Joypurhat" },
+                    { "state_name": "Jamalpur" },
+                    { "state_name": "Jessor" },
+                    { "state_name": "Jhalokati" },
+                    { "state_name": "Jhenaidah" },
+                    { "state_name": "Khagrachhari" },
+                    { "state_name": "Khulna" },
+                    { "state_name": "Kishoreganj" },
+                    { "state_name": "Cox's Bazar" },
+                    { "state_name": "Comilla" },
+                    { "state_name": "Kurigram" },
+                    { "state_name": "Kushtia" },
+                    { "state_name": "Lakshmipur" },
+                    { "state_name": "Lalmonirhat" },
+                    { "state_name": "Madaripur" },
+                    { "state_name": "Magura" },
+                    { "state_name": "Mymensingh" },
+                    { "state_name": "Manikganj" },
+                    { "state_name": "Moulvibazar" },
+                    { "state_name": "Meherpur" },
+                    { "state_name": "Munshiganj" },
+                    { "state_name": "Narail" },
+                    { "state_name": "Narayanganj" },
+                    { "state_name": "Narsingdi" },
+                    { "state_name": "Nator" },
+                    { "state_name": "Naogaon" },
+                    { "state_name": "Nawabganj" },
+                    { "state_name": "Netrokona" },
+                    { "state_name": "Nilphamari" },
+                    { "state_name": "Noakhali" },
+                    { "state_name": "Pabna" },
+                    { "state_name": "Panchagarh" },
+                    { "state_name": "Patuakhali" },
+                    { "state_name": "Pirojpur" },
+                    { "state_name": "Rajbari" },
+                    { "state_name": "Rajshahi" },
+                    { "state_name": "Rangamati" },
+                    { "state_name": "Rangpur" },
+                    { "state_name": "Satkhira" },
+                    { "state_name": "Shariatpur" },
+                    { "state_name": "Sherpur" },
+                    { "state_name": "Sylhet" },
+                    { "state_name": "Sirajganj" },
+                    { "state_name": "Sunamganj" },
+                    { "state_name": "Tangail" },
+                    { "state_name": "Thakurgaon" }
+
+2 Barisal 
+
+3 Bhola 
+
+4 Jhalokati 
+
+5 Patuakhali 
+
+6 Pirojpur 
+
+7 Bandarban 
+
+8 Brahmanbaria 
+
+9 Chandpur 
+
+10 Chittagong 
+
+11 Comilla 
+
+12 Cox's Bazar 
+
+13 Feni 
+
+14 Khagrachhari 
+
+15 Lakshmipur 
+
+16 Noakhali 
+
+17 Rangamati 
+
+18 Dhaka 
+
+19 Faridpur 
+
+20 Gazipur 
+
+21 Gopalganj 
+
+22 Kishoreganj 
+
+23 Madaripur 
+
+24 Manikganj 
+
+25 Munshiganj 
+
+26 Narayanganj 
+
+27 Narsingdi 
+
+28 Rajbari 
+
+29 Shariatpur 
+
+30 Tangail 
+
+31 Bagerhat 
+
+32 Chuadanga 
+
+33 Jessore 
+
+34 Jhenaidah 
+
+35 Khulna 
+
+36 Kushtia 
+
+37 Magura 
+
+38 Meherpur 
+
+39 Narail 
+
+40 Satkhira 
+
+41 Jamalpur 
+
+42 Mymensingh 
+
+43 Netrokona 
+
+44 Sherpur 
+
+45 Bogra 
+
+46 Joypurhat 
+
+47 Naogaon 
+
+48 Natore 
+
+49 Chapai Nawabganj 
+
+50 Pabna 
+
+51 Rajshahi 
+
+52 Sirajganj 
+
+53 Dinajpur 
+
+54 Gaibandha 
+
+55 Kurigram 
+
+56 Lalmonirhat 
+
+57 Nilphamari 
+
+58 Panchagarh 
+
+59 Rangpur 
+
+60 Thakurgaon 
+
+61 Habiganj 
+
+62 Moulvibazar 
+
+63 Sunamganj 
+
+64 Sylhet 
+
+
+
+// if (count($_POST) > 0) {
+//     // Response from shurjoPay
+//     $response_encrypted = $_POST['spdata'];
+
+
+
+
+//     // shurjoPay response data decryption url
+//     $shurjopay_decryption_url = 'https://shurjopay.com/merchant/decrypt.php';
+//     // Request for post data decryption
+//     $response_decrypted = file_get_contents($shurjopay_decryption_url . "?data=" . $response_encrypted);
+
+
+
+//     // $payment_url = $shurjopay_decryption_url . '?data=' . $response_encrypted;
+
+
+//     // $ch = curl_init();
+//     // curl_setopt($ch, CURLOPT_URL, $payment_url);
+//     // curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+//     // curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, 0);
+//     // curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, 0);
+//     // $response_decrypted = curl_exec($ch);
+
+
+//     // curl_close($ch);
+
+//     // Parse decrypted data
+//     $response_data = simplexml_load_string($response_decrypted) or die("Error: Cannot create object");
+
+//     // foreach ($response_data as $key => $val) {
+
+//     //     echo $key . '=' . $val . '<br>';
+//     // }
+
+
+
+
+//     /****************** Response Data *************
+//       # Merchant Transaction ID: $response_data->txID;
+//       # Bank Transaction ID: $response_data->bankTxID;
+//       # Bank Status: $response_data->bankTxStatus;
+//       # ShurjoPay response code: $response_data->spCode;
+//       # ShurjoPay response resone: $response_data->spCodeDes;
+//       # Customer choosed payment method: $response_data->paymentOption;
+//       # Payment amount: $response_data->txnAmount
+//      ***********************************************/
+// }
+
+
+
+spdata=
+        <?xml version="1.0" encoding="utf-8"?>
+<shurjoPay>
+    <merchantName>$this->merchant_username</merchantName>
+    <merchantPass>$this->merchant_password</merchantPass>
+    <userIP>$this->client_ip</userIP>
+    <uniqID> $this->tx_id</uniqID>
+
+    <totalAmount>$price </totalAmount>
+    <paymentOption>shurjopay</paymentOption>
+    <returnURL>$return_url</returnURL>
+</shurjoPay>
+
